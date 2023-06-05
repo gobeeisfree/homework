@@ -1,0 +1,26 @@
+.validation {
+  /* background-color: tomato; */
+  list-style: none;
+  padding-left: 0;
+}
+.validation__list:first-child {
+  margin-bottom: 0.75rem;
+}
+
+.validation__list {
+  width: 15.625rem;
+  height: 2.3125rem;
+  line-height: 2.3125rem;
+}
+
+.validation__link {
+  display: block;
+  max-width: 15.625rem;
+  max-height: 2.3125rem;
+  padding-left: 2.25rem;
+  text-decoration: none;
+  color: #000;
+  background: url(./../images/validation_icon\ 2.png) no-repeat 1rem 0.625rem,
+    #ccc;
+  border-radius: 2.125rem;
+}
