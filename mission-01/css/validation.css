@@ -1,5 +1,4 @@
 .validation {
-  /* background-color: tomato; */
   list-style: none;
   padding-left: 0;
 }
@@ -15,8 +14,6 @@
 
 .validation__link {
   display: block;
-  max-width: 15.625rem;
-  max-height: 2.3125rem;
   padding-left: 2.25rem;
   text-decoration: none;
   color: #000;
