@@ -2,10 +2,10 @@ dd {
   margin: 0;
 }
 
-.term {
+.term__wrapper {
   width: 15.625rem;
   height: 16.1875rem;
-  padding: 1rem;
+  padding: 0.9375rem;
   box-sizing: border-box;
   border: 0.0625rem solid #a3a3a3;
   border-radius: 0.3125rem;
@@ -15,42 +15,46 @@ dd {
 .title {
   margin: 0 0 1rem 0;
   font-size: 0.9375rem;
-  line-height: 1.40625rem;
+  line-height: 1.4375rem;
+  font-weight: bold;
 }
 
 .desc__list {
   margin-top: 0;
   margin-bottom: 0.75rem;
-  width: 13.625rem;
-  height: 5.5rem;
 }
 
 .desc__list:last-child {
-  margin-bottom: 0rem;
+  margin: 0;
 }
 
-.desc-term {
+.desc__term,
+.desc__text {
   font-size: 0.875rem;
-  font-weight: bold;
   line-height: 1.3125rem;
+}
+
+.desc__term {
+  font-weight: bold;
   color: #296897;
   margin-bottom: 0.25rem;
+  margin-right: 4.1875rem;
 }
 
-.desc-text {
-  font-size: 0.875rem;
-  line-height: 1.3125rem;
-}
-
-.desc-wrap-01 {
-  width: 8.875rem;
-  height: 5.5rem;
+.desc__term-right {
   float: right;
 }
 
-.desc-wrap-02 {
-  width: 8.875rem;
-  height: 5.5rem;
+.desc__term-left {
   float: left;
+}
+
+.img__float-left {
   margin-right: 1rem;
+  float: left;
+}
+
+.img__float-right {
+  margin-left: 1rem;
+  float: right;
 }
