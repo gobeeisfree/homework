@@ -1,0 +1,56 @@
+dd {
+  margin: 0;
+}
+
+.term {
+  width: 15.625rem;
+  height: 16.1875rem;
+  padding: 1rem;
+  box-sizing: border-box;
+  border: 0.0625rem solid #a3a3a3;
+  border-radius: 0.3125rem;
+  background: linear-gradient(#ccc, #eee);
+}
+
+.title {
+  margin: 0 0 1rem 0;
+  font-size: 0.9375rem;
+  line-height: 1.40625rem;
+}
+
+.desc__list {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  width: 13.625rem;
+  height: 5.5rem;
+}
+
+.desc__list:last-child {
+  margin-bottom: 0rem;
+}
+
+.desc-term {
+  font-size: 0.875rem;
+  font-weight: bold;
+  line-height: 1.3125rem;
+  color: #296897;
+  margin-bottom: 0.25rem;
+}
+
+.desc-text {
+  font-size: 0.875rem;
+  line-height: 1.3125rem;
+}
+
+.desc-wrap-01 {
+  width: 8.875rem;
+  height: 5.5rem;
+  float: right;
+}
+
+.desc-wrap-02 {
+  width: 8.875rem;
+  height: 5.5rem;
+  float: left;
+  margin-right: 1rem;
+}
