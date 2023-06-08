@@ -1,0 +1,112 @@
+/* 숨김 콘텐츠 */
+.a11y {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  visibility: hidden;
+  clip: rect(0, 0, 0, 0);
+  clip-path: inset(50%);
+}
+
+.wrap {
+  margin: 3rem;
+  padding: 0.75rem;
+  background: linear-gradient(90deg, #ed552f, #e8852e);
+  border: 0;
+  border-radius: 0.3125rem;
+  box-shadow: 5px 5px 0 #aaa;
+  width: 13.75rem;
+}
+
+.title {
+  color: #ffff00;
+  font-size: 0.9375rem;
+  font-weight: bold;
+  line-height: 1.4375rem;
+  margin-bottom: 0.5rem;
+}
+
+.login-inner {
+  background-color: #fff;
+  position: relative;
+  padding: 0.5rem;
+  border-radius: 0.3125rem;
+}
+
+.user-email {
+  margin-bottom: 0.25rem;
+  width: 100%;
+}
+
+.user-password {
+  margin-bottom: 0.5rem;
+}
+
+.login-form__label {
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+}
+
+.login-form__input {
+  box-sizing: border-box;
+  border: 0.0625rem solid #ccc;
+  border-radius: 0.3125rem;
+  padding: 0 0 0 0.5rem;
+  font-size: 0.875rem;
+  line-height: 1.3125rem;
+  width: 5.625rem;
+}
+
+.login-form__input::placeholder {
+  color: #ccc;
+}
+
+.user-email .login-form__label {
+  padding-right: 1.1875rem;
+}
+
+.user-password .login-form__label {
+  padding-right: 0.4375rem;
+}
+
+/* 로그인 버튼 */
+.login-form__button {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  width: 3.125rem;
+  height: 3.3125rem;
+  background-color: #ed552f;
+  color: #fff;
+  border: 0;
+  border-radius: 0.3125rem;
+  font-size: 0.8125rem;
+}
+
+/* 회원가입, 아이디/비밀번호 찾기 */
+.find-wrap {
+  display: flow-root;
+  padding-top: 0.25rem;
+  border-top: 0.0625rem solid #ccc;
+}
+
+.find-wrap li:first-child {
+  float: left;
+}
+
+.find-wrap li:last-child {
+  float: right;
+}
+
+.find__link {
+  display: block;
+  height: 1.21875rem;
+  text-decoration: none;
+  color: #181818;
+  padding: 0.25rem 0 0 1.0625rem;
+  font-size: 0.8125rem;
+  line-height: 1.21875rem;
+  background: url(./Frame_8.png) no-repeat 0 50%;
+}
