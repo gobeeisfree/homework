@@ -27,21 +27,14 @@
   border-radius: 5px;
   background: #fff;
   overflow: hidden;
-  height: 29px;
-  transition: height 500ms;
+  height: 31px;
+  transition: height 500ms, padding 500ms 500ms;
+  box-sizing: border-box;
 }
 
 .site-list:hover {
-  height: 153px;
-}
-
-li:first-child {
-  margin-top: 0;
-  transition: margin-top 500ms 500ms;
-}
-
-.site-list:hover li:first-child {
-  margin-top: 4px;
+  height: 155px;
+  padding: 4px 0;
 }
 
 li {
