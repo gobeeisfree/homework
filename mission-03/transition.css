@@ -28,12 +28,20 @@
   background: #fff;
   overflow: hidden;
   height: 29px;
-  transition: height 500ms, padding 500ms 500ms;
+  transition: height 500ms;
 }
 
 .site-list:hover {
-  height: 145px;
-  padding: 4px 0;
+  height: 153px;
+}
+
+li:first-child {
+  margin-top: 0;
+  transition: margin-top 500ms 500ms;
+}
+
+.site-list:hover li:first-child {
+  margin-top: 4px;
 }
 
 li {
