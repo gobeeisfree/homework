@@ -1,4 +1,4 @@
-# **transition 과제**
+# **grid 과제**
 
 ## **Result**
 
