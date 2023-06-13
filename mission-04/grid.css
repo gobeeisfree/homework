@@ -1,0 +1,77 @@
+body {
+  margin: 50px;
+}
+
+h4 {
+  margin: 0;
+  margin-bottom: 4px;
+}
+
+p {
+  margin: 0;
+  margin-bottom: 12px;
+}
+
+.news-container {
+  max-width: 380px;
+  font-size: 14px;
+  line-height: 1.5;
+  display: grid;
+  gap: 12px 0;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas:
+    "title title . . . . . . . . more more"
+    "line line line line line line line line . . . ."
+    "image image image image main main main main main main main main ";
+}
+
+.news-title {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #ed552f;
+  grid-area: title;
+}
+
+.line {
+  content: "";
+  display: block;
+  height: 1px;
+  background: linear-gradient(to right, #a9a9a9, #fff);
+  grid-area: line;
+}
+
+.news-main {
+  grid-area: main;
+}
+
+.main-desc {
+  text-align: justify;
+}
+
+.news-image {
+  margin: 0;
+  display: inline-block;
+  text-align: center;
+  grid-area: image;
+  width: 112px;
+}
+
+.news-image img {
+  box-shadow: 0 15px 15px 5px #aaa;
+  margin-bottom: 16px;
+}
+
+.more {
+  grid-area: more;
+  text-align: right;
+}
+
+.more__link {
+  display: inline-block;
+  color: inherit;
+  text-decoration: none;
+  padding-left: 20px;
+  background: url(Union.png) no-repeat 0% 50%;
+}
