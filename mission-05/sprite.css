@@ -1,0 +1,85 @@
+body {
+  margin: 50px;
+}
+
+.primary-color {
+  color: #ed552f;
+}
+
+.favorite {
+  width: 11.875rem;
+  padding: 0.75rem;
+  line-height: 1.5;
+  background: linear-gradient(#ccc, #eee);
+  border: 0.0625rem solid #a3a3a3;
+  border-radius: 0.3125rem;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.favorite-title {
+  margin: 0 0 0.5rem 0;
+  font-size: 0.9375rem;
+}
+
+.favorite-rank {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0.6875rem;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 0.5rem;
+}
+
+.favorite-rank [class^="rank"]::before {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  color: #fff;
+  font-size: 0.6875rem;
+  background: #a3a3a3;
+  border-radius: 0.3125rem;
+  text-align: center;
+  margin-right: 0.25rem;
+}
+
+.rank1::before {
+  content: "1";
+}
+.rank2::before {
+  content: "2";
+}
+.rank3::before {
+  content: "3";
+}
+.rank4::before {
+  content: "4";
+}
+
+.sprite {
+  background: url(./rank.png) no-repeat;
+}
+
+.spriteUp {
+  background-position: 100% 3px;
+}
+
+.spriteDown {
+  background-position: 100% -41px;
+}
+
+.spriteStop {
+  background-position: 100% -19px;
+}
+
+.favorite-more {
+  color: inherit;
+  text-decoration: none;
+  font-size: 0.875rem;
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  padding-left: 1.25rem;
+  background: url(./Union.png) no-repeat 0 center;
+}
